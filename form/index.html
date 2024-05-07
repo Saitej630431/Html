@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-image: url(/studentlife.webp);
+          background-repeat: no-repeat;
+          background-size: cover;
+          backdrop-filter: 5;
+        }
+       form{
+        position: relative;
+        top:20px;
+
+        left:70px;
+        background-color:aqua;
+        border:2px solid black;
+        border-radius: 5px;
+       width: 500px;
+       display: flexbox;
+        }
+        label{
+            color:rgb(35, 17, 224);
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+  
+     <form action="main.java">
+        <div id="us">
+            <label for="un">username:</label>
+            <input type="text" id="un">
+        </div> <br>
+        <div id="email">
+            <label for="em">Email:</label>
+            <input type="email" id="em">
+        </div> <br>
+        <div id="phone">
+            <label for="ph">phone no:</label>
+            <input type="number" id="un">
+        </div> <br>
+        <div id="address">
+            <label for="ad">Address:</label>
+           <textarea name="" id="ad" cols="30" rows="5"></textarea>
+        </div><br>
+        <div>
+            <label for="gen">Gender</label>
+            <input type="radio" name="gender" id="gen">
+            <label>male</label>
+            <input type="radio" name="gender" id="gen">
+            <label >female</label>
+        </div><br>
+        <div>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob">
+        </div><br>
+        <div>
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="">select</option>
+                <option value="Java">java</option>
+                <option value="C#">C#</option>
+                <option value="python">python</option>
+                <option value="React">React</option>
+            
+            </select>
+        </div><br>
+    <div>
+        <label for="lang">languages</label>
+        <input type="checkbox" name="lang" id="lang">
+        <label for="lang">Telugu</label>
+        <input type="checkbox" name="lang" id="lang">
+        <label for="lang">English</label>
+        <input type="checkbox" name="lang" id="lang">
+        <label for="lang">Hindi</label>
+    </div><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+   
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+body{
+    background: radial-gradient(blueviolet,white);
+   
+}
+*{
+    color: rgb(43, 6, 6);
+    font-family:Commissioner;
+    font-size: 20px;
+    font-weight: 10px;
+}
+p{ 
+    text-align: justify;
+    
+   
+}
+h1{
+    color: red;
+    text-shadow: 1.5px 1.5px;
+    text-indent: 2em;
+}
+img{
+    height: 5em;
+    width: 10em;
+    
+}
+a{
+    text-decoration: none;
+}
